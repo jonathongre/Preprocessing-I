@@ -1,1 +1,271 @@
-/* Compile your LESS file! */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* Set every element's box-sizing to border-box */
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  max-width: 1200px;
+  height: auto;
+  margin: auto;
+  padding: 0 5px;
+  font-family: 'Archivo Narrow', sans-serif;
+  font-size: 62.5%;
+  background: linear-gradient(to right, #fff 30%, #004E70 100%);
+}
+.section-text {
+  font-size: 16px;
+}
+.section-text h2 {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 20px 0 10px 0;
+}
+.top-border {
+  border-top: 2px solid #fff;
+}
+.nav-bar {
+  height: 30px;
+  width: 100%;
+  padding: 5px 0;
+  padding-bottom: 20px;
+  top: 0;
+}
+.nav-bar nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.nav-bar nav ul a {
+  padding-left: 15px;
+  padding-right: 5px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #000;
+  text-shadow: 1px 1px #c0c0c0;
+}
+.nav-bar nav ul a:hover {
+  color: #fff;
+}
+.top-content {
+  margin-top: 40px;
+  padding: 60px 0 40px 0;
+  display: flex;
+  flex-direction: column;
+}
+.top-content img {
+  height: 200px;
+  width: 250px;
+  transform: rotate(270deg);
+  padding: 10px 0;
+  filter: grayscale(100%) brightness(1.4);
+}
+.top-content h1 {
+  padding: 40px 0 20px 30px;
+  font-size: 60px;
+}
+.top-content .summary {
+  padding-left: 30px;
+  border-top: 2px solid #fff;
+  font-size: 16px;
+}
+.top-content .summary h2 {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 20px 0 10px 0;
+}
+.mid-content {
+  padding: 20px 0 20px 30px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  font-size: 16px;
+}
+.mid-content h2 {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 20px 0 10px 0;
+}
+.mid-content .skills {
+  column-count: 4;
+  column-gap: 20px;
+}
+.mid-content .skills li {
+  list-style: square;
+}
+.bottom-content {
+  height: auto;
+  width: 100%;
+  padding: 40px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 16px;
+  border-top: 2px solid #fff;
+}
+.bottom-content h2 {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 20px 0 10px 0;
+}
+.bottom-content table.work {
+  border: 2px solid #000;
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+}
+.bottom-content table.work td,
+.bottom-content table.work th {
+  border: 1px solid transparent;
+  padding: 3px 4px;
+}
+.bottom-content table.work td:nth-child(even) {
+  background: transparent;
+}
+.bottom-content table.work thead {
+  background: transparent;
+  border-bottom: 4px solid #000;
+}
+.bottom-content table.work thead th {
+  font-size: 18px;
+  font-weight: bold;
+  color: #000;
+  text-align: center;
+  border-left: 2px solid transparent;
+}
+.bottom-content table.work thead th:first-child {
+  border-left: none;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
+  padding-bottom: 20px;
+}
