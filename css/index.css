@@ -197,14 +197,14 @@ body {
     border-bottom: 1px solid #fff;
   }
 }
-.nav-bar nav ul li a {
-  padding: 0.5rem 0 0.5rem 2rem;
+.nav-bar nav ul a {
+  padding: 0.5rem 1rem 0.5rem 2rem;
   text-decoration: none;
   font-size: 2rem;
   color: #000;
   text-shadow: 0.1rem 0.1rem #c0c0c0;
 }
-.nav-bar nav ul li a:hover {
+.nav-bar nav ul a:hover {
   color: #fff;
 }
 .top-content {
